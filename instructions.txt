@@ -1,0 +1,39 @@
+From OpenAI https://platform.openai.com/api-keys
+Created key
+API Key created for dkasiviswanath.ai@outlook.com
+
+Windows enviroment variable setup done
+with above value and key name should be "OPENAI_API_KEY"
+    
+From ollama downloaded and installed
+https://ollama.com/download/windows
+Download and install ollama
+
+https://ollama.com/dkasiviswanathai
+You have to register and login to ollama to pull the local models
+dkasiviswanath.ai@outlook.com is the email that is registered.
+
+Run ollama commands to install few local models
+ollama --help will show the commands
+ollama pull gemma-2b
+ollama run gemma-2b
+ollama rm gemma-2b
+ollama list
+/bye   --- to exit the ollama command line interface
+are the commands to pull, run, remove and list the local models
+
+you can check whether it is running or not by
+http://localhost:11434/
+ollama list will show the running models
+
+In the python we need to install following modules: 
+langchain 
+langchain-openai
+langchain-community
+
+
+
+
+
+
+
